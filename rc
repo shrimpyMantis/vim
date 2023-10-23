@@ -87,3 +87,13 @@ xmap        S   <Plug>(vsnip-cut-text)
 let g:vsnip_filetypes = {}
 let g:vsnip_filetypes.javascriptreact = ['javascript']
 let g:vsnip_filetypes.typescriptreact = ['typescript']
+
+" keybinds
+let mapleader=" "
+" NERDTree
+nmap <leader>e :NERDTreeToggle<CR>
+nmap <leader>r :NERDTreeFocus<CR>
+" Navigation
+nnoremap <silent> <C-Right> :bn<CR>
+nnoremap <silent> <C-Left> :bp<CR>
+
