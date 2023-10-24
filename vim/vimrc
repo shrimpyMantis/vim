@@ -83,12 +83,7 @@ source ~/.vim/plugins/tender.vim
 source ~/.vim/plugins/lightline.vim
 source ~/.vim/plugins/fzf.vim
 source ~/.vim/plugins/nerdtree.vim
-Plug 'prabirshrestha/vim-lsp'
-Plug 'mattn/vim-lsp-settings'
-Plug 'prabirshrestha/asyncomplete.vim'
-Plug 'prabirshrestha/asyncomplete-lsp.vim'
-Plug 'hrsh7th/vim-vsnip'
-Plug 'hrsh7th/vim-vsnip-integ'
+source ~/.vim/plugins/lsp.vim
 
 call plug#end()
 
@@ -133,4 +128,3 @@ let g:vsnip_filetypes.typescriptreact = ['typescript']
 
 " keybinds
 source ~/.vim/base/keybinds.vim
-
