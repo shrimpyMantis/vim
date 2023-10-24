@@ -7,5 +7,5 @@
 rm -rf ~/.vimrc
 rm -rf ~/.vim
 
-cp ./vim ~/
+cp -r ./vim ~/
 mv ~/vim ~/.vim
